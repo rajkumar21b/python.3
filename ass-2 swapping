@@ -1,0 +1,13 @@
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+print("The value of before swapping a and b is",a,b)
+a=a+b
+b=a-b
+a=a-b
+print("The value of after swapping a and b is",a,b)
+
+OUTPUT :
+enter a value:6
+enter b value:5
+The value of before swapping a and b is 6 5
+The value of after swapping a and b is 5 6
