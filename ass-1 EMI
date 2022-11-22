@@ -1,0 +1,11 @@
+pr=int(input("enter the principal amount:"))
+si=int(input("simple interest:"))
+t=int(input("time:"))
+EMI=(pr+si)/12*t
+print(EMI)
+
+OUTPUT :
+enter the principal amount:1000
+simple interest:100
+time:3
+275.0
