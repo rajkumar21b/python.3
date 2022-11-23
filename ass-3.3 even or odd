@@ -1,0 +1,9 @@
+num=int(input("enter the number"))
+if num%2==0 :
+    print("the given number is even",num)
+else :
+    print("the given number is odd",num)
+
+OUTPUT :
+enter the number 33
+the given number is odd 33
