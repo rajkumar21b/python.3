@@ -1,0 +1,18 @@
+a=int(input("enter a value"))
+b=int(input("enter b value"))
+print("add",a+b)
+print("sub",a-b)
+print("mult",a*b)
+print("div",a/b)
+print("exp",a**b)
+print("floor div",a//b)
+
+OUTPUT :
+enter a value 6
+enter b value 2
+add 8
+sub 4
+mult 12
+div 3.0
+exp 36
+floor div 3
