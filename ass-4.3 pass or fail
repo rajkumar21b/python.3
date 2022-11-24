@@ -1,0 +1,26 @@
+sno=int(input("enter sno:"))
+name=str(input("enter student name:"))
+group=str(input("enter group:"))
+s1=int(input("enter maths marks:"))
+s2=int(input("enter c marks:"))
+s3=int(input("enter python marks:"))
+print("sno:",sno)
+print("name:",name)
+print("group:",group)
+if s1>=35 and s2>=35 and s3>=35 :
+    print("pass")
+else :
+    print("fail")
+  
+OUTPUT :
+
+enter sno:210377400195
+enter student name:raj kumar
+enter group:bca
+enter maths marks:63
+enter c marks:72
+enter python marks:65
+sno: 210377400195
+name: raj kumar
+group: bca
+pass
