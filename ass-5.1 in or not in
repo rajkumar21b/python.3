@@ -1,0 +1,10 @@
+list=[1,3,4,55,64,33,11,32,77,9,22,92,39,11,19,23,55]
+num=int(input("enter number in list:"))
+if num in list :
+    print("the element is in list")
+else :
+    print("the element is not in list")
+
+OUTPUT :
+enter number in list:33
+the element is in list
