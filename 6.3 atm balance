@@ -1,0 +1,13 @@
+amo=int(input("enter amount:"))
+balance=10000
+if amo<balance :
+    print("credited amount",amo)
+    print("avaiable balance",balance-amo)
+else :
+    print("please try again")
+ 
+OUTPUT :
+
+enter amount:4500
+credited amount 4500
+avaiable balance 5500
