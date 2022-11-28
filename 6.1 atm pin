@@ -1,0 +1,22 @@
+pin=5678
+cpin=int(input("enter your pin number:"))
+if pin==cpin :
+    print("continue the transactions")
+else :
+    print("NOT VALID")
+    print("incorrect pin number.please try again")pin=5678
+cpin=int(input("enter your pin number:"))
+if pin==cpin :
+    print("continue the transactions")
+else :
+    print("NOT VALID")
+    print("incorrect pin number.please try again")
+    
+OUTPUT 1:
+enter your pin number:1234
+NOT VALID
+incorrect pin number.please try again
+
+OUTPUT 2:
+enter your pin number:5678
+continue the transactions
