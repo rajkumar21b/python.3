@@ -1,0 +1,29 @@
+emnum=int(input("enter emo num:"))
+empname=str(input("enter a name:"))
+empdes=str(input("emop work:"))
+da=int(input("enter a daily allowance:"))
+ta=int(input("enter a travelling allowance:"))
+hra=int(input("enter a houes rental:"))
+net=int(input("enter netsalary:"))
+if  net>100000 :
+    tax=net*10/100
+elif net>50000 :
+    tax=7
+elif net>40000 :
+    tax=4
+elif net>20000 :
+    tax=2
+elif net<20000 :
+    tax=0
+print("tax",tax,"%")
+
+OUTPUT :
+
+enter emo num:123
+enter a name:rajkumar
+emop work:software
+enter a daily allowance:1000
+enter a travelling allowance:500
+enter a houes rental:10000
+enter netsalary:35400
+tax 2%
