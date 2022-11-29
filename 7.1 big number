@@ -1,0 +1,20 @@
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+c=int(input("enter c:"))
+d=int(input("enter d:"))
+if (a>b and a>c and a>d) :
+    print("a is big")
+elif(b>c and b>d) :
+    print("b is big")
+elif(c>d) :
+    print("c is big")
+else :
+    print("d is big")
+    
+OUTPUT :
+
+enter a:10
+enter b:20
+enter c:30
+enter d:40
+d is big
