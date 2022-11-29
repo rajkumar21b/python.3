@@ -1,0 +1,20 @@
+sno=str(input("enter a student number:"))
+sname=str(input("enter a student name:"))
+group=str(input("enter a gruop:"))
+s1=int(input("enter a sub1 marks:"))
+s2=int(input("enter a sub2 marks:"))
+s3=int(input("enter a sub3 marks:"))
+if s1>=35 and s2>=35 and s3>=35 :
+    print("pass")
+else :
+    print("fail")
+    
+OUTPUT :
+
+enter a student number:210377400195
+enter a student name:rajkumar
+enter a gruop:bca
+enter a sub1 marks:36
+enter a sub2 marks:45
+enter a sub3 marks:66
+pass
