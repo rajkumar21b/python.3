@@ -1,0 +1,57 @@
+groceries=str(input("which groceries you want:"))
+name=str(input("name:"))
+cphno=int(input("phone number:"))
+address=str(input("city:"))
+coupon=str(input("enter your coupon in capitals:"))
+bill=1000+2000+979+350+100
+if bill>3000 :
+    tax=bill*5/100
+elif bill>2000 :
+    tax=bill*7/100
+elif bill>1000 :
+    tax=bill*10/100
+elif bill>500 :
+    tax=bill*15/100
+else :
+    tax=100
+print("bill",bill+tax)
+if coupon=="DIWALI" :
+    if bill>=5000 :
+        dis=bill*10/100 
+    elif bill>=3000 :
+        dis=bill*6/100 
+    elif bill>=1000 :
+        dis=bill*4/100
+    else :
+        dis=0
+if coupon=="CHRISMAS" :
+    if bill>=3000 :
+        dis=bill*20/100
+    elif bill>=2000 :
+        dis=bill*10/100
+    elif bill>=1000 :
+        dis=bill*5/100
+    else :
+        dis=0 
+print("customer name:",name)
+print("custmoer number:",cphno)
+print("custmoer city:",address)
+print("bill without tax",bill)
+print("discount on bill:",dis)
+print("tax on bill:",tax)
+print("total bill",bill+tax-dis)
+
+OUTPUT :
+which groceries you want:rice kaju oil badam salt
+name:rajkumar
+phone number:7989137145
+city:kainada
+enter your coupon in capitals:CHRISMAS
+bill 4545.45
+customer name: rajkumar
+custmoer number: 7989137145
+custmoer city: kainada
+bill without tax 4329
+discount on bill: 865.8
+tax on bill: 216.45
+total bill 3679.6499999999996
