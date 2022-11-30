@@ -1,0 +1,31 @@
+groceries=str(input("which groceries you want:"))
+name=str(input("name:"))
+cphno=int(input("phone number:"))
+address=str(input("city:"))
+bill=1000+200+99+350
+if bill>3000 :
+    tax=bill*5/100
+elif bill>2000 :
+    tax=bill*7/100
+elif bill>1000 :
+    tax=bill*10/100
+elif bill>500 :
+    tax=bill*15/100
+else :
+    tax=100    
+print("customer name:",name)
+print("custmoer number:",cphno)
+print("custmoer city:",address)
+print("tax",tax)
+print("bill",bill)
+
+OUTPUT :
+which groceries you want:rice bread oil wheet salt
+name:raj kumar
+phone number:7989137145
+city:kakinada
+customer name: raj kumar
+custmoer number: 7989137145
+custmoer city: kakinada
+tax 164.9
+bill 1649
