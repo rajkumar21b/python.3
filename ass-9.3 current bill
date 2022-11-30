@@ -1,0 +1,28 @@
+name=str(input("enter your name:"))
+hno=int(input("enter your house number:"))
+ps=int(input("enter your present reading:"))
+pr=int(input("enter your  preavious reading:"))
+tu=pr-ps
+if tu<100 :
+    ta=tu*2
+elif tu>=100 and tu<300 :
+    ta=tu*4
+elif tu>=300 and tu<400 :
+    ta=tu*5
+else :
+    ta=tu*6
+print("name:",name)
+print("house number:",hno)
+print("this month total units:",tu)
+print("current bill:",ta)
+
+OUTPUT :
+
+enter your name:rajkumar
+enter your house number:4567
+enter your present reading:300
+enter your  preavious reading:650
+name: rajkumar
+house number: 4567
+this month total units: 350
+current bill: 1750
