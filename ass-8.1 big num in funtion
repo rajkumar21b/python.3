@@ -1,0 +1,13 @@
+def big(a,b) :
+    if a>b :
+        print("a is big",a)
+    else :
+        print("b is big",b)
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+big(a,b)
+
+OUTPUT :
+enter a value:33
+enter b value:77
+b is big 77
