@@ -1,0 +1,16 @@
+n=int(input("enter upto to you want prime number:"))
+ct=0
+for i in range(2,n+1) :
+    c=0
+    for j in range(2,i) :
+        if i%j==0 :
+            c=c+1 
+            break
+    if c==0 :
+       ct=ct+1 
+print("prime numbers count:",ct)
+
+OUTPUT :
+
+enter upto to you want prime number:10
+prime numbers count: 4
