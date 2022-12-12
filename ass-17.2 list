@@ -1,0 +1,20 @@
+n=int(input("enter size:"))
+l=[]
+for i in range(n) :
+    a=int(input("enter a number:"))
+    l.append(a)
+print(l)
+print("the max element from the list",max(l))
+print("the max element from the list",min(l))
+    
+OUTPUT :
+enter size:6
+enter a number:22
+enter a number:1
+enter a number:55
+enter a number:33
+enter a number:5
+enter a number:8
+[22, 1, 55, 33, 5, 8]
+the max element from the list 55
+the max element from the list 1
