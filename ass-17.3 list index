@@ -1,0 +1,18 @@
+n=int(input("enter size:"))
+l=[]
+for i in range(n) :
+    a=int(input("enter a number:"))
+    l.append(a)
+print(l)
+print(l[0],l[2],l[4])
+
+OUTPUT :
+
+enter size:5
+enter a number:4
+enter a number:22
+enter a number:8
+enter a number:4
+enter a number:77
+[4, 22, 8, 4, 77]
+4 8 77
