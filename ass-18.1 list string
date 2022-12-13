@@ -1,0 +1,19 @@
+d=[]
+n=int(input("enter no.of districts:"))
+for i in range(n) :
+    di=input()
+    d.append(di)
+d.sort()
+for i in d :
+    print(i)
+
+OUTPUT :
+enter no.of districts:4
+kakinada
+vskp
+srikakulam
+amalapuram
+amalapuram
+kakinada
+srikakulam
+vskp
