@@ -1,0 +1,12 @@
+l=[1,2,3,45,3,4]
+d=[]
+for i in l :
+    if i not in d :
+        d.append(i)
+d.sort()
+print(l)
+print(d)
+
+OUTPUT :
+[1, 2, 3, 45, 3, 4]
+[1, 2, 3, 4, 45]
