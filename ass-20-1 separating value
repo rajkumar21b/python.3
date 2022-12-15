@@ -1,0 +1,15 @@
+n=int(input())
+l=list(map(int,input().split()))
+n=[]
+p=[]
+for i in range(len(l)) :
+    if l[i]>=0 :
+        n.append(l[i])
+    else :
+        p.append(l[i])
+print(n,p)
+
+OUTPUT :
+6
+1 -2 3 -4 35 -9
+[1,3,35] [-2,-4,-9]
