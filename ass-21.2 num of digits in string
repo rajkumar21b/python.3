@@ -1,0 +1,10 @@
+str1=input()
+c=0
+for i in str1 :
+   if i.isdigit() :
+    c=c+1
+print(c)
+
+OUTPUT :
+3sd4tf23
+4
