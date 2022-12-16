@@ -1,0 +1,15 @@
+str1=str(input())
+print("no.of characters of string",len(str1))
+x=str1.upper()
+print("lower to upper",x)
+x=str1.lower()
+print("upper to lowercase",x)
+x=str1.swapcase()
+print("upper to lowercase as well as small into uppercase",x)
+
+OUTPUT :
+Raj KuMar
+no.of characters of string 9
+lower to upper RAJ KUMAR
+upper to lowercase raj kumar
+upper to lowercase as well as small into uppercase rAJ kUmAR
