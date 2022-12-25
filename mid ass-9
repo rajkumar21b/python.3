@@ -1,0 +1,14 @@
+def fsum(n) :
+    a,b=1,1
+    sum=0
+    sum+=a
+    while b<=n :
+        sum+=b
+        a,b=b,a+b
+    return sum
+n=int(input("ENTER A DIGIT:"))
+print(fsum(n))
+
+OUTPUT :
+ENTER A DIGIT:10
+20
