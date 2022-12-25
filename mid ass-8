@@ -1,0 +1,11 @@
+r=int(input("ENTER UPTO RANGE:"))
+for i in range(1,r+1) :
+    if i%4==0 or i%400==0 :
+         print(i)
+OUTPUT :
+ENTER UPTO RANGE:20
+4
+8
+12
+16
+20
