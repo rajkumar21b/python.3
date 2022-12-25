@@ -1,0 +1,10 @@
+n=int(input("ENTER A DIGIT:"))
+l=[]
+for i in range(1,n) :
+    if n%i==0 :
+        l.append(i)
+print("THE GIVE NUMBER IS PERFACT NUMBER") if n== sum(l) else print("THE GIVE NUMBER IS NOT PERFACT NUMBER")
+
+OUTPUT :
+ENTER A DIGIT:6
+THE GIVE NUMBER IS PERFACT NUMBER
