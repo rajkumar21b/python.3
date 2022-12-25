@@ -1,0 +1,9 @@
+l=list(map(int,input("ENTER A ELEMENTS:").split()))
+s=set(l)
+print("ELEMENTS",l)
+print("UNIQUE" if len(l)==len(s) else "DUPLICATE")
+
+OUTPUT :
+ENTER A ELEMENTS:1 2 3 4 5
+ELEMENTS [1,2,3,4,5]
+UNIQUE
