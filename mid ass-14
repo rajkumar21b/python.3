@@ -1,16 +1,19 @@
-def ishappy(n) :
+def ishappy(i) :
     sum=0
-    while n>0 :
-        r=n%10 
-        sum=sum+r 
-        n=n//10
+    while i>0 :
+        r=i%10 
+        sum=sum+r*r
+        i=i//10
     return sum
 n=int(input("ENTER A DIGIT:"))
-temp=n
-while n>9 :
-    n=ishappy(n)
-print("THE GIVE NUMBER OF HAPPY NUMBER OF PREVIOUS NUMBER IS",temp-1) if n==1 or n==7 else print("THE GIVE NUMBER IS NOT HAPPY NUMBER")
+for i in range(n,0,-1) :
+    temp=i
+    while i>9 :
+        i=ishappy(i)
+    if i==1 or i==7 :
+        break;
+print("THE GIVE NUMBER OF HAPPY NUMBER OF PREVIOUS NUMBER IS",temp)
 
 OUTPUT :
-ENTER A DIGIT:124
-THE GIVE NUMBER OF HAPPY NUMBER OF PREVIOUS NUMBER IS 123
+ENTER A DIGIT:95
+THE GIVE NUMBER OF HAPPY NUMBER OF PREVIOUS NUMBER IS 94
