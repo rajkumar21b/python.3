@@ -1,0 +1,8 @@
+n=input("ENTER A DIGIT:")
+print("THE MINIMUN",min(n))
+print("THE MAXIMUN",max(n))
+
+OUTPUT :
+ENTER A DIGIT:234656
+THE MINIMUN 2
+THE MAXIMUN 6
