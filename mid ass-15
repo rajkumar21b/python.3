@@ -1,0 +1,12 @@
+l=list(map(int,input("ENTER A ELEMENT:").split()))
+print("THE GIVEN ELMENTS ARE",l)
+for i in l :
+    if l.count(i)==1 :
+        print("UNIQUE ELEMENT FROM THE LIST",i)
+
+OUTPUT :
+ENTER A ELEMENT:1 2 3 4 1 2 3
+THE GIVEN ELMENTS ARE [1,2,3,4,1,2,3]
+UNIQUE ELEMENT FROM THE LIST 4
+
+
