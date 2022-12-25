@@ -1,0 +1,20 @@
+print("THE REVERSE OF GIVEN NUMBER",input("ENTER A DIGIT:")[::-1])
+
+OUTPUT :
+ENTER A DIGIT:13424
+THE REVERSE OF GIVEN NUMBER 42431
+
+    OR 
+n=int(input("ENTER A DIGIT:"))
+sum=0
+while n>0 :
+    r=n%10 
+    sum=sum*10+r
+    n=n//10
+print("THE REVERSE OF GIVEN NUMBER",sum)
+
+OUTPUT :
+ENTER A DIGIT:13424
+THE REVERSE OF GIVEN NUMBER 42431
+
+
