@@ -1,0 +1,6 @@
+n=int(input("ENTER A DIGIT:"))
+print("HELLO",n*n) if n*n<10 else print("HI",n*n)
+
+OUTPUT :
+ENTER A DIGIT:3
+HELLO 9
