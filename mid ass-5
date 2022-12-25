@@ -1,0 +1,10 @@
+n=int(input("ENTER A DIGIT:"))
+c=0
+for i in range(2,n) :
+    if n%i==0 :
+        c+=1 
+print("THE GIVE NUMBER IS PRIME" if c==0 else "THE GIVE NUMBER IS NOT PRIME")
+
+OUTPUT :
+ENTER A DIGIT:7
+THE GIVE NUMBER IS PRIME
