@@ -2,7 +2,7 @@ def ishappy(n) :
     sum=0
     while n>0 :
         r=n%10 
-        sum=sum+r 
+        sum=sum+r*r
         n=n//10
     return sum
 n=int(input("ENTER A DIGIT:"))
@@ -11,5 +11,5 @@ while n>9 :
 print("THE GIVE NUMBER IS HAPPY NUMBER") if n==1 or n==7 else print("THE GIVE NUMBER IS NOT HAPPY NUMBER")
 
 OUTPUT :
-ENTER A DIGIT:124
+ENTER A DIGIT:94
 THE GIVE NUMBER IS HAPPY NUMBER
