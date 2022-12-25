@@ -1,0 +1,7 @@
+n=input()
+s=n[::-1]
+print("PALINDROME" if n==s else "NOT PALINDROME")
+
+OUTPUT :
+121
+PALINDROME
