@@ -1,0 +1,26 @@
+n=int(input("ENTER A SIZE:"))
+l=list(map(int,input("ENTER A ELEMENT INTO LIST:").split()))
+s=int(input("ENTER A SEARCH ELEMENT:"))
+low=0
+high=n-1
+flag=0
+mid=(low+high)//2
+while high>=low :
+    if s>l[mid] :
+        low=mid+1 
+    elif s==l[mid] :
+        flag=1 
+        break
+    else :
+        high=mid-1
+    mid=(low+high)//2
+if flag==1 :
+    print("ELEMENT IS FOUND",l.index(s))
+else :
+    print("ELEMENT IS NOT FOUND")
+
+OUTPUT :
+ENTER A SIZE:5
+ENTER A ELEMENT INTO LIST:2 1 4 3 5
+ENTER A SEARCH ELEMENT:4
+ELEMENT IS FOUND 2
