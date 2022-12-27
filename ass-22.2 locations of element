@@ -1,0 +1,18 @@
+n=int(input("ENTER A SIZE:"))
+l=list(map(int,input("ENTER A ELEMENT INTO LIST:").split()))
+s=int(input("ENTER A SEARCH ELEMENT:"))
+c=0
+for i in range(0,n) :
+    if s==l[i] :
+        print("THE LOCAL OF ELEMENT",i)
+        c+=1
+if c==0 :
+    print("-1")
+    
+OUTPUT :
+ENTER A SIZE:9
+ENTER A ELEMENT INTO LIST:1 7 9 4 5 1 7 9 0
+ENTER A SEARCH ELEMENT:7
+THE LOCAL OF ELEMENT 1
+THE LOCAL OF ELEMENT 6
+
