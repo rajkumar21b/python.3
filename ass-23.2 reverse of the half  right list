@@ -1,0 +1,10 @@
+n=int(input("ENTER A DIGIT:"))
+l=[]
+s=str(n-1)
+for i in s:
+    l.append(int(i))
+print(l)
+
+OUTPUT :
+ENTER A DIGIT:66
+[6,5]
