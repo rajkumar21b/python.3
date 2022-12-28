@@ -1,0 +1,16 @@
+n=int(input("ENTER A DIGIT:"))
+l=list(map(int,input().split()))
+l1=[]
+l2=[]
+for i in l :
+    if i>=n :
+        l1.append(i)
+    else :
+        l2.append(i)
+l1.reverse()
+print(l2+l1)
+
+OUTPUT :
+ENTER A DIGIT:4
+1 2 3 4 5
+[1,2,3,5,4]
