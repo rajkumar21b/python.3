@@ -1,0 +1,6 @@
+l=[i for i in range(int(input("ENTER A RANGE:"))) if i%2!=0]
+print(l)
+
+OUTPUT :
+ENTER A RANGE:10
+[1,3,5,7,9]
