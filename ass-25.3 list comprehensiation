@@ -1,0 +1,6 @@
+l=[i for i in range(1,int(input("ENTER A RANGE:"))) if i%4==0 or i%5==0]
+print(l)
+
+OUTPUT :
+ENTER A RANGE:20
+[4,5,8,10,12,15,16]
