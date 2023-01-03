@@ -1,0 +1,20 @@
+n=int(input("enter a size of matrix:"))
+a=[]
+for i in range(0,n) :
+    l=[]
+    for j in range(0,n) :
+        x=int(input("enter a element into matrix:"))
+        l.append(x)
+    a.append(l)
+for i in range(0,n) :
+    for j in range(0,n) :
+        if i==j :
+            print(a[i][j])
+
+OUTPUT :
+enter a size of matrix:2
+enter a element into matrix:1
+enter a element into matrix:2
+enter a element into matrix:3
+enter a element into matrix:4
+1 4      
