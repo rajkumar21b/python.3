@@ -1,0 +1,24 @@
+n=int(input("ENTER A SIZE OF MATRIX:"))
+m=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input("ENTER A ELEMENT INTO MATRIX:"))
+        l.append(x)
+    m.append(l)
+sum=0
+for i in range(len(m)) :
+    for j in range(len(m)) :
+        sum=sum+m[i][j]
+print("CODER TERGET") if sum==2 else print("NOT CODER TERGET")
+
+OUTPUT :
+ENTER A SIZE OF MATRIX:2
+ENTER A ELEMENT INTO MATRIX:1
+ENTER A ELEMENT INTO MATRIX:0
+ENTER A ELEMENT INTO MATRIX:1
+ENTER A ELEMENT INTO MATRIX:0
+CODER TERGET
+
+
+
