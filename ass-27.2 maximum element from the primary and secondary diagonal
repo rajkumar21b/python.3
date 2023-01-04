@@ -1,0 +1,27 @@
+n=int(input("ENTER A SIZE OF MATRIX:"))
+m=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input("ENTER A ELEMENT INTO MATRIX:"))
+        l.append(x)
+    m.append(l)
+p=[]
+for i in range(len(m)) :
+    for j in range(len(m)) :
+        if i==j or (i+j)==n-1 :
+            p.append(m[i][j])
+print("maximum of two diagonals:"max(p))
+
+OUTPUT :
+ENTER A SIZE OF MATRIX:3
+ENTER A ELEMENT INTO MATRIX:1
+ENTER A ELEMENT INTO MATRIX:2
+ENTER A ELEMENT INTO MATRIX:3
+ENTER A ELEMENT INTO MATRIX:4
+ENTER A ELEMENT INTO MATRIX:5
+ENTER A ELEMENT INTO MATRIX:6
+ENTER A ELEMENT INTO MATRIX:7
+ENTER A ELEMENT INTO MATRIX:8
+ENTER A ELEMENT INTO MATRIX:9
+maximum of two diagonals:9
