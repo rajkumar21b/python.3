@@ -1,0 +1,38 @@
+n=int(input("ENTER A SIZE OF MATRIX:"))
+m=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input("ENTER A ELEMENT INTO MATRIX:"))
+        l.append(x)
+    m.append(l)
+k=int(input("ENTER A value:"))
+for i in range(0,n) :
+    for j in range(0,n) :
+        if (i+j)==len(m)-1 :
+            m[i][j]=k
+        else :
+            m[i][j]=0
+for i in range(0,n) :
+    for j in range(0,n) :
+        print(m[i][j],end=" ")
+    print()
+
+OUTPUT :
+ENTER A SIZE OF MATRIX:3
+ENTER A ELEMENT INTO MATRIX:1
+ENTER A ELEMENT INTO MATRIX:2
+ENTER A ELEMENT INTO MATRIX:3
+ENTER A ELEMENT INTO MATRIX:4
+ENTER A ELEMENT INTO MATRIX:5
+ENTER A ELEMENT INTO MATRIX:6
+ENTER A ELEMENT INTO MATRIX:7
+ENTER A ELEMENT INTO MATRIX:8
+ENTER A ELEMENT INTO MATRIX:9
+ENTER A value:10
+0 0 10
+0 10 0
+10 0 0
+
+
+
