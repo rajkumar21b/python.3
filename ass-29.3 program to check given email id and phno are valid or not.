@@ -1,0 +1,25 @@
+for i in range(int(input("ENTER A NO OF MAIL ACCOUNTS:"))) :
+    email=input("ENTER YOUR EMAIL:")
+    num=input("ENTER YOUR PHONE NUMBER:")
+    c=0
+    if email.endswith("@gmail.com") :
+        c=c+1
+    if email.endswith("@yahoo.com") :
+        c=c+1
+    if email.endswith("@adc.aditya.ac.in") :
+        c=c+1
+    if len(num)==10:
+        if num.startswith("9") or  num.startswith("8") or  num.startswith("7") or  num.startswith("6") :
+            c=c+1
+    if c==2 :
+        print("REGISTRATION SUCCESSULLY")
+    else :
+        print("CHECK YOUR DETAILS")
+        
+ OUTPUT :
+ ENTER A NO OF MAIL ACCOUNTS:1
+ ENTER YOUR EMAIL:raj@gmail.com
+ ENTER YOUR PHONE NUMBER:7989137145
+ REGISTRATION SUCCESSULLY
+ 
+ 
