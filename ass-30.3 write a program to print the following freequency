@@ -1,0 +1,13 @@
+s=input("ENTER A STRING:")
+n=int(input("ENTER HOW MUCH FREEQUENCY:"))
+y=""
+m=len(s)
+for i in range(m) :
+    for j in range(n) :
+        y=y+s[i]
+print(y)
+
+OUTPUT :
+ENTER A STRING:ADITYA
+ENTER HOW MUCH FREEQUENCY:2
+AADDIITTYYAA
