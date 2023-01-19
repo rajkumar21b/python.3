@@ -1,0 +1,15 @@
+s=input("ENTER A STRING:")
+n=len(s)
+t=n
+for i in range(0,n+1) :
+    print(s[0:t])
+    t=t-1
+
+OUTPUT :
+ENTER A STRING:ADITYA
+ADITYA
+ADITY
+ADIT
+ADI
+AD
+A
