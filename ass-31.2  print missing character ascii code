@@ -1,0 +1,13 @@
+s=input()
+n=len(s)
+c=97
+for i in range(0,n) :
+    if ord(s[i])==c :
+        pass
+    else :
+        print(c)
+    c=c+1
+ 
+OUTPUT :
+abd
+99
